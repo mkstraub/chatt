@@ -1,0 +1,22 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#message-container {
+    width: 80%;
+    max-width: 120px;
+    height: 50px;
+}
+
+#message-container div {
+    background-color: greenyellow;
+    padding: 5px;
+  
+}
+
+#message-conainer  div:nth-child(2n) {
+    background-color: #FFF;
+}
